@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:show_me/models/catalog.dart';
 import 'package:show_me/widgets/MyDrawer.dart';
+import 'package:show_me/widgets/item_widget.dart';
 
 class home_pg extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final String cr = "Flutter";
-    final int dy = 30;
+    final DummyList = List.generate(15, (index) => CatalogModel.items[0]);
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -18,14 +19,15 @@ class home_pg extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: Center(
-        child: Text(
-          "Welcome To $cr-Course Oo Soconaysa $dy Malmod",
-          style: TextStyle(
-            fontSize: 25,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.1,
-          ),
+      body: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: ListView.builder(
+          itemCount: DummyList.length,
+          itemBuilder: (context, index) {
+            return itemwidget(
+              item: DummyList[index],
+            );
+          },
         ),
       ),
       drawer: MyDrawer(),

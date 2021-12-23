@@ -42,7 +42,7 @@ class _loginState extends State<login> {
               ),
               SizedBox(height: 30),
               Image.asset(
-                "img/lg.png",
+                "assets/img/lg.png",
                 fit: BoxFit.cover,
               ),
               SizedBox(height: 50),

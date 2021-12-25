@@ -15,7 +15,7 @@ class test extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.pink),
       debugShowCheckedModeBanner: false,
       routes: {
-        "/": (context) => login(),
+        "/": (context) => home_pg(),
         Myrt.hr: (context) => home_pg(),
         Myrt.lr: (context) => login(),
       },

@@ -10,6 +10,9 @@ class MyTheme {
         titleTextStyle: Theme.of(context).appBarTheme.titleTextStyle,
       ));
   static ThemeData darkTheme(BuildContext context) => ThemeData(
-    brightness: Brightness.dark,
-  );
+        brightness: Brightness.dark,
+      );
+  static Color crcl = Color(0xFFEE0C88);
+  static Color dbcl = Color(0xFF001F2C);
+  static Color whcl = Color(0xFFF7F7F7);
 }

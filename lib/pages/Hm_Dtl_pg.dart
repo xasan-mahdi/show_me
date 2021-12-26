@@ -13,8 +13,8 @@ class Hm_Dtl_pg extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,elevation: 0.0,
-        iconTheme: IconThemeData(color: Colors.transparent),
+        backgroundColor: Colors.transparent,elevation: 0.0,
+        iconTheme: IconThemeData(color: Colors.black),
       ),
       backgroundColor: Colors.white,
       bottomNavigationBar: Container(
@@ -48,9 +48,9 @@ class Hm_Dtl_pg extends StatelessWidget {
                     child: Column(
                       children: [
                         catalog.name.text.xl5.color(MyTheme.dbcl).make(),
-                        catalog.desc.text.xl2.make().py20(), 10.heightBox,
-                        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-                        .text.make().p24()
+                        catalog.desc.text.xl2.make(), 10.heightBox,
+                        "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.is simply dummy text of the printing and typesetting industry. remaining essentially unchanged.the printing Industry"
+                        .text.xl.make().p16()
                       ],
                     ).p64(),
                   ),

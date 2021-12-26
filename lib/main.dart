@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:show_me/pages/cart_pg.dart';
 
 import 'pages/home_pg.dart';
 import 'pages/login.dart';
@@ -18,6 +19,7 @@ class test extends StatelessWidget {
         "/": (context) => home_pg(),
         Myrt.hr: (context) => home_pg(),
         Myrt.lr: (context) => login(),
+        Myrt.cprt: (context) => Cart_Pg(),
       },
     );
   }

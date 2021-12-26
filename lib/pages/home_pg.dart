@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'package:show_me/models/catalog.dart';
+import 'package:show_me/utils/routes.dart';
 import 'package:show_me/widgets/Home_wdg/Catalog_List.dart';
 import 'package:show_me/widgets/Home_wdg/Ct_Hd.dart';
 import 'package:show_me/widgets/MyDrawer.dart';
@@ -39,7 +40,7 @@ class _home_pgState extends State<home_pg> {
     return Scaffold(
       backgroundColor: MyTheme.whcl,
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () => Navigator.pushNamed(context, Myrt.cprt),
         backgroundColor: MyTheme.crcl,
         child: Icon(CupertinoIcons.cart),),
       body: SafeArea(

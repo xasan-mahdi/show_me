@@ -30,7 +30,7 @@
             "desc": "Sony Playstation 5th generation",
             "price": 500,
             "color": "#544ee4",
-            "image": "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGxheXN0YXRpb24lMjA1fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            "image": "https://images.pexels.com/photos/4219884/pexels-photo-4219884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         },
         {
             "id": 5,
@@ -62,7 +62,7 @@
             "desc": "Apple Aipods Pro 1st generation",
             "price": 299,
             "color": "#e3e4e9",
-            "image": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWlycG9kcyUyMHByb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            "image": "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         },
         {
             "id": 9,
@@ -78,7 +78,7 @@
             "desc": "IPhone 13 a 2021 edition",
             "price": 1299,
             "color": "#1c1c1c",
-            "image": "https://images.unsplash.com/photo-1609692814859-9ebe00526a8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3xlYUlhTEZzeklXNHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            "image": "https://images.unsplash.com/photo-1571654681830-ef991494a42a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aXBob25lJTIwMTElMjBwcm8lMjBtYXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
         },
         {
             "id": 11,
@@ -86,7 +86,7 @@
             "desc": "Hp Core i7 1st generation",
             "price": 299,
             "color": "#e3e4e9",
-            "image": "https://images.unsplash.com/photo-1604684768394-52a862c2955a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wJTIwaHB8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         },
         {
             "id": 12,

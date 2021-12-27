@@ -1,7 +1,12 @@
 import 'dart:convert';
 
 class CatalogModel {
-  static  List<Item> items = [];
+  static List<Item> items = [];
+
+  static Item getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  static Item getByMutation(int pos) => items[pos];
 }
 
 class Item {
@@ -20,8 +25,6 @@ class Item {
     required this.color,
     required this.image,
   });
-
-  
 
   Item copyWith({
     int? id,
@@ -75,23 +78,23 @@ class Item {
   @override
   bool operator ==(Object other) {
     if (identical(this, other)) return true;
-  
+
     return other is Item &&
-      other.id == id &&
-      other.name == name &&
-      other.desc == desc &&
-      other.price == price &&
-      other.color == color &&
-      other.image == image;
+        other.id == id &&
+        other.name == name &&
+        other.desc == desc &&
+        other.price == price &&
+        other.color == color &&
+        other.image == image;
   }
 
   @override
   int get hashCode {
     return id.hashCode ^
-      name.hashCode ^
-      desc.hashCode ^
-      price.hashCode ^
-      color.hashCode ^
-      image.hashCode;
+        name.hashCode ^
+        desc.hashCode ^
+        price.hashCode ^
+        color.hashCode ^
+        image.hashCode;
   }
 }

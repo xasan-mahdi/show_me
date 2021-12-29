@@ -33,7 +33,10 @@ class _Cart_total extends StatelessWidget {
         children: [
           "\$9999".text.xl5.color(MyTheme.dbcl).make(),
           30.widthBox,
-          ElevatedButton(onPressed: () {}, 
+          ElevatedButton(onPressed: () {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              content: "In Aad Iibsatid Weli Lagma Shaqeysiin".text.make()));
+          }, 
           style: ButtonStyle(backgroundColor: MaterialStateProperty.all(MyTheme.crcl)),
           child: "Proceed To Check-Out".text.white.make(),
           ).w32(context)
